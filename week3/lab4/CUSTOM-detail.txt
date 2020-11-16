@@ -1,0 +1,32 @@
+(a) SOURCE:
+- https://www.kaggle.com/pranavkrishna/vgsales?select=vgsales.csv
+- note: I shortened the data to only 25 columns since took too long for SQL browser to process.
+
+(b) BRIEF DESC:
+-TABLE games
+	-contains information about the games consisting of
+	name, year, and ranking.
+	-ranking is used as primary key since no duplicate in existing data
+	therefore a unique identifier.
+-TABLE publishers
+	-contains information about the publishers consisting of
+	name and highest ranking.
+	-ranking becomes a foreign key that references to games ranking.
+-TABLE sales
+	-contains information about the sales of each game
+	data consisting of ranking, name, publisher name,
+	and various sales data (USA, Europe, Japan, Global).
+	-ranking becomes a foreign key that references to games ranking.
+
+(c) CHALLENGES:
+-I am still barely understanding the concept of foreign keys and found it really
+hard to think in an ordered-style since foreign key can only occur from a primary key
+in a pre-existing table.
+
+(d) THREE NON-TRIVIAL INFO REQUEST
+-requesting to view list of games.
+	-select * games;
+-requesting to view list of publishers.
+	-select * publishers;
+-requesting to view sales based off ranking.
+	-select 1 from sales;

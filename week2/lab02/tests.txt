@@ -1,0 +1,119 @@
+CSC 365
+Lab 1-a test suite
+
+
+=======================================
+TC-0
+Tests Requirements R1->R3
+Testing Multiple Filters and Functions.
+Expected file is:     test0.out
+Output file is:       mytest0.out
+
+
+=======================================
+TC-1
+Tests Requirements R4
+S[tudent] search with no B[us] option
+Input:    S: COOKUS
+Expected file is:     test1.out
+Output file is:       mytest1.out
+
+
+=======================================
+TC-2
+Tests Requirements R5
+S[tudent] search with B[us] option
+Input:    S: COOKUS B:
+Expected file is:     test2.out
+Output file is:       mytest2.out
+
+
+=======================================
+TC-3
+Tests Requirements R6
+T[eacher] search option
+Input:    T: KERBS
+Expected file is:     test3.out
+Output file is:       mytest3.out
+
+
+=======================================
+TC-4
+Tests Requirements R7
+G[rade] search option
+Input:    G: 4
+Expected file is:     test4.out
+Output file is:       mytest4.out
+
+
+=======================================
+TC-5
+Tests Requirements R8
+B[us] search option
+Input:    B: 55
+Expected file is:     test5.out
+Output file is:       mytest5.out
+
+
+=======================================
+TC-6
+Tests Requirements R9
+G[rade] search option with H[igh]
+Input:    G: 2 H:
+Expected file is:     test6.out
+Output file is:       mytest6.out
+
+
+=======================================
+TC-7
+Tests Requirements R9
+G[rade] search option with L[ow]
+Input:    G: 2 L:
+Expected file is:     test7.out
+Output file is:       mytest7.out
+
+
+=======================================
+TC-8
+Tests Requirements R10
+A[verage] search option
+Input:    A: 4
+Expected file is:     test8.out
+Output file is:       mytest8.out
+
+
+=======================================
+TC-9
+Tests Requirements R11
+I[nfo] search option
+Input:    I:
+Expected file is:     test9.out
+Output file is:       mytest9.out
+
+
+=======================================
+TC-10
+Tests Requirements R12
+Q[uit] option
+Input:    Q:
+Expected file is:     test10.out
+Output file is:       mytest10.out
+
+
+=======================================
+TC-11
+Tests Requirements R13
+Assuming students.txt is present.
+Expected file is:     test0.out
+Output file is:       mytest11.out
+
+
+=======================================
+TC-12
+Tests Requirements E1
+Assuming students.txt is not present.
+Expected file is:     test0.out
+Output file is:       mytest12.out
+
+
+=======================================
