@@ -1,0 +1,21 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    // embedded H2 database, includes JDBC driver
+    compile group: 'com.h2database', name: 'h2', version: '1.4.200'
+    testImplementation 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}
+
+task run (type: JavaExec){
+    description = "run CSC 365 JDBC application"
+    main = 'InnReservations'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
+
